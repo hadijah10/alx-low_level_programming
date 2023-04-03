@@ -13,6 +13,13 @@ int main(void)
 	{
 		for (s = 49; s <= 57; s++)
 		{
+			if (f == 56)
+			{
+				if (s >= 48 && s <= 56)
+				{
+					continue;
+				}
+			}
 			putchar(f);
 			putchar(s);
 			if (f == 56 && s == 57)
