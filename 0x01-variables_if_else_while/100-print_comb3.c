@@ -13,6 +13,10 @@ int main(void)
 	{
 		for (s = 49; s <= 57; s++)
 		{
+			if (f >= 49 && s <= f)
+			{
+				continue;
+			}
 			if (f == 56)
 			{
 				if (s >= 48 && s <= 56)
