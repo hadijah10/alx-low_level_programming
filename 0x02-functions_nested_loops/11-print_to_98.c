@@ -19,6 +19,6 @@ void print_to_98(int n)
 		if (i >= 98)
 			break;
 		_putchar(',');
-		putchar(' ');
+		_putchar(' ');
 	}
 }
